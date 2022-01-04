@@ -1,0 +1,20 @@
+I"9<h3 id="overview">Overview</h3>
+<p>Big data technologies have gained tremendous popularity over the last few years, with applications in several domains such as healthcare, business analytics and smart environments. In the cyber security domain, the traditional cyber security solutions such as Intrusion Detection System (IDS) are unable to cope up with the high Volume, Velocity, and Variety, known as the 3Vs of security event data. By incorporating big data technologies with cyber security gave rise to Big Data Cyber Security Analytics (BDCA) system which has provided means for collecting, storing, and analysing large volume of security events data to monitor and protect organizational networks, computers, and data from unauthorized access, damage, or attack. Working in this area for the last 4-5 years, we have developed and evaluated three adaptation approaches: ADABTics, QuickAdapt, and SCALER.</p>
+<ul>
+<li>
+<p>ADABTics combines component-based architecture with architecture-driven adaptation to ensure optimal performance.</p>
+</li>
+<li>
+<p>QuickAdapt exploits the component based BDCA architecture to add or drop components at runtime to allow quick adaptation to the changes in the security events data. Instead of focusing on architecture.</p>
+</li>
+<li>
+<p>SCALER focusses on parameters to tune them as per the operating environment in order to ensure that the BDCA system scales optimally.</p>
+</li>
+</ul>
+<h3 id="publications">Publications</h3>
+<p>ICSA 2019, ICECCS 2019, and JNCA 2021</p>
+<h3 id="project-members">Project Members</h3>
+<ul>
+<li>Faheem Ullah</li>
+</ul>
+:ET

@@ -18,6 +18,8 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "webrick"
   gem "jekyll-paginate"
+  # gem 'jekyll-commonmark' , github: 'jekyll/jekyll-commonmark', ref: 'refs/pull/44/head'
+  gem 'jekyll-commonmark-ghpages'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

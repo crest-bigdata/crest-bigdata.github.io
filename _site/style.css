@@ -14,7 +14,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #333;
 }
 
@@ -338,7 +338,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 48px 0;
 }
 
 section h2.section-heading {
@@ -358,7 +358,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 32px 0;
     }
 }
 
@@ -367,9 +367,13 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#services p {
-    margin-top: 20px;
-    margin-bottom: 20px;
+#services .content {
+    padding: 8px 32px 8px 32px;
+}
+
+#services .content p {
+    font-size: 16px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
 
 #portfolio .portfolio-item {

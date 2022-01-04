@@ -1,13 +1,13 @@
 # url: https://127.0.0.1
 # baseurl: ""
 
-url: http://ssi.crest-centre.net
+url: http://adts.crest-centre.net
 baseurl: ""
 
 # Site settings
-title: CREST - Applied Data Science
+title: CREST ADTS
 email: faheem.ullah@adelaide.edu.au
-description: "Big Data & Cloud Computing Research Cluster"
+description: "Applied Data Science Research Cluster"
 
 
 # Team names, titles and social links
@@ -20,12 +20,18 @@ people:
       url: https://twitter.com/alibabar
 
 - name: Dr. Faheem Ullah
-  pic: huaming
+  pic: faheem
   position: Researcher
   social:
     - title: twitter
-      url: https://twitter.com/
+      url: https://twitter.com/faheem_uh
 
+- name: Dr. Faheem Ullah
+  pic: faheem
+  position: Researcher
+  social:
+    - title: twitter
+      url: https://twitter.com/faheem_uh
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -39,5 +45,10 @@ address:
   - line: Adelaide SA 5005
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
+
 permalink: pretty
