@@ -14,13 +14,16 @@
     <link rel="stylesheet" href="/style.css">
 
     <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -89,7 +92,7 @@
  -->
 
     <!-- Services Section -->
-<section id="services">
+<section id="services" class="bg-light">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -100,14 +103,16 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <img src="https://via.placeholder.com/1280x720/000000/FFFFFF/?text=cluster_overview_img_1280x720"
-                    class="img-responsive img-centered" alt="overview" />
-                <!-- <img src="/img/overview1.PNG" class="img-responsive img-centered" alt="overview" /> -->
+                <!-- <img src="https://via.placeholder.com/1280x720/000000/FFFFFF/?text=cluster_overview_img_1280x720"
+                    class="img-responsive img-centered" alt="overview" /> -->
+                <img src="/img/cluster-overview.jpg" class="img-responsive img-centered box-shadow" alt="cluster-overview" />
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-12 text-justify content">
-                <p>Overview </p>
+            <div class="col-lg-12 text-justify content" style="margin: 16px 8px 16px 8px">
+                <p class="enlarge-first">We investigate, develop, and evaluate big data systems for real-time collection, storage, processing, and visualization of large-scale data.</p>
+                <p class="enlarge-first">We study, implement, and evaluate various big data analytical frameworks (e.g., Hadoop, Spark, and Flink) and associated technologies for optimal use in various application domains.</p>
+                <p class="enlarge-first">We design and implement platform that offers big data analytics-as-a-service to automate infrastructure, selection and usage of big data technologies for users lacking big data expertise and resources.</p>
             </div>
         </div>
         <div class="row text-center">
@@ -135,7 +140,7 @@
                     <i class="fa fa-gears fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">Infrastructure Platform</h4>
-                <p class="text-muted">Tools and automation application to provision multi-clouds infrastructures and to deploy cluster-based applications.</p>
+                <p class="text-muted">Automate the provision of multi-clouds infrastructures and deployment of multiple cluster-based applications.</p>
             </div>
             <div class="col-md-3">
                 <span class="fa-stack fa-4x">
@@ -143,7 +148,7 @@
                     <i class="fa fa-info fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">Analytics Platform</h4>
-                <p class="text-muted">Tools and automation application to provision multi-clouds infrastructures and to deploy cluster-based applications.</p>
+                <p class="text-muted">Automate the selection and usage of big data technologies for users lacking big data expertise and resources </p>
             </div>
         </div>
     </div>
@@ -166,7 +171,7 @@
                                 <!-- <i class="fa fa-plus fa-3x"></i> -->
                             </div>
                         </div>
-                        <img src="img/portfolio/jit_svp-thumbnail.png" class="img-responsive img-centered" alt="">
+                        <img src="img/portfolio/cloud-computing-thumbnail.jpeg" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>CREST Cloud Tools</h4>
@@ -175,13 +180,28 @@
                 </div>
             
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModalcrest-big-data-platform" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <!-- <i class="fa fa-plus fa-3x"></i> -->
                             </div>
                         </div>
-                        <img src="img/portfolio/jit_svp-thumbnail.png" class="img-responsive img-centered" alt="">
+                        <img src="img/portfolio/data-analytics.jpeg" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>CREST Big Data Platform</h4>
+                        <p class="text-muted">Platform</p>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModalbig-data-cyber-security-analytics" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <!-- <i class="fa fa-plus fa-3x"></i> -->
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cyber-security-thumbnail.jpg" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Big Data Cyber Security Analytics</h4>
@@ -193,8 +213,100 @@
         </div>
     </section>
 
+    <!-- Publication Section -->
+<section id="publication" class="bg-neutral-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Publications</h2>
+                <h3 class="section-subheading text-muted">Scientific Articles and Technical Reports.</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-lg-offset-1 text-justify">
+                <ol>
+                    <li>
+                        <p>
+                            Faheem Ullah and Ali Babar.
+                            <i class="color-highlight">
+                                "Architectural tactics for big data
+                                cybersecurity analytics
+                                systems: a review."
+                            </i>
+                            Journal of Systems and Software 151 (2019): 81-118.
+                            [<a href="https://ieeexplore.ieee.org/abstract/document/8816739/">Link</a>]
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Yaser Mansouri, Victor Prokhorenko, and Ali Babar.
+                            <i class="color-highlight">
+                                "An automated
+                                implementation of hybrid cloud for performance evaluation of distributed databases."
+                            </i>
+                            Journal of Network and Computer Applications 167 (2020): 102740.
+                            [<a href="https://ieeexplore.ieee.org/abstract/document/8816739/">Link</a>]
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Faheem Ullah and Muhammad Ali Babar.
+                            <i class="color-highlight">
+                                "An Architecture-driven
+                                Adaptation Approach for Big Data
+                                Cyber Security Analytics."
+                            </i>
+                            2019 IEEE International Conference on Software
+                            Architecture
+                            (ICSA). IEEE, 2019.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Victor Prokhorenko and M. Ali Babar.
+                            <i class="color-highlight">"Architectural resilience in
+                                cloud, fog and edge systems: A survey."
+                            </i>
+                            IEEE Access 8 (2020): 28078-28095.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Faheem Ullah and M. Ali Babar.
+                            <i class="color-highlight">
+                                QuickAdapt: Scalable Adaptation for Big Data Cyber Security Analytics.
+                            </i>
+                            2019 24th International Conference on Engineering of Complex Computer Systems (ICECCS).
+                            IEEE, 2019.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Yaser Mansouri and M. Ali Babar.
+                            <i class="color-highlight">
+                                The Impact of Distance on Performance and Scalability of Distributed Database Systems in
+                                Hybrid Clouds.
+                            </i>
+                            arXiv preprint arXiv:2007.15826 (2020).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Ullah, Faheem, and M. Ali Babar.
+                            <i class="color-highlight">
+                                Quantifying the Impact of Design Strategies for Big Data Cyber Security Analytics: An
+                                Empirical Investigation.
+                            </i>
+                            2019 20th International Conference on Parallel and Distributed Computing, Applications and
+                            Technologies (PDCAT). IEEE, 2019.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- Team Section -->
-<section id="team">
+<section id="team" class="bg-light">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -363,34 +475,10 @@
     </div>
 </section>
     <!-- Clients Aside -->
+<div class="bg-lightest">
     <aside class="clients">
         <div class="container">
             <div class="row">
-                <!-- <div class="col-md-3 col-sm-6">
-                    <a href="https://crest-centre.net">
-                        <img src="img/logos/crest.png" class="img-responsive img-centered" alt="CREST">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="https://cybersecuritycrc.org.au">
-                        <img src="img/logos/cscrc.png" class="img-responsive img-centered" alt="CSCRC">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div> -->
-                <!-- <div class="col-md-6 col-sm-6">
-                    <a href="https://cybersecuritycrc.org.au">
-                        <img src="img/logos/logo-cscrc.png" class="img-responsive img-centered" alt="CSCRC">
-                    </a>
-                </div> -->
                 <div class="col-md-6 col-sm-6">
                     <a href="https://crest-centre.net">
                         <img src="img/logos/crest.png" class="img-responsive img-centered" alt="CREST">
@@ -399,7 +487,8 @@
             </div>
         </div>
     </aside>
-      <footer>
+</div>
+      <footer class="bg-lightest">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -441,7 +530,7 @@
                         <div class="modal-body">
                             <h2>CREST Cloud Tools</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/jit_svp.jpg" class="img-responsive img-centered" alt="platform">
+                            <img src="img/portfolio/cloud-computing.jpeg" class="img-responsive img-centered" alt="platform">
                             <p>Develop a platform which can fully automate the processes of provisioning multi-clouds infrastructure and deploying cluster-based applications.</p>
                             <div class="project-content"><h3 id="overview">Overview</h3>
 <p>Big data technologies have gained tremendous popularity over the last few years, with applications in several domains such as healthcare, business analytics and smart environments. In the cyber security domain, the traditional cyber security solutions such as Intrusion Detection System (IDS) are unable to cope up with the high Volume, Velocity, and Variety, known as the 3Vs of security event data. By incorporating big data technologies with cyber security gave rise to Big Data Cyber Security Analytics (BDCA) system which has provided means for collecting, storing, and analysing large volume of security events data to monitor and protect organizational networks, computers, and data from unauthorized access, damage, or attack. Working in this area for the last 4-5 years, we have developed and evaluated three adaptation approaches: ADABTics, QuickAdapt, and SCALER.</p>
@@ -485,7 +574,65 @@
         </div>
     </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModalcrest-big-data-platform" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>CREST Big Data Platform</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/data-analytics.jpeg" class="img-responsive img-centered" alt="platform">
+                            <p>Develop a platform which can fully automate the processes of provisioning multi-clouds infrastructure and deploying cluster-based applications.</p>
+                            <div class="project-content"><h3 id="overview">Overview</h3>
+<p>Big data technologies have gained tremendous popularity over the last few years, with applications in several domains such as healthcare, business analytics and smart environments. In the cyber security domain, the traditional cyber security solutions such as Intrusion Detection System (IDS) are unable to cope up with the high Volume, Velocity, and Variety, known as the 3Vs of security event data. By incorporating big data technologies with cyber security gave rise to Big Data Cyber Security Analytics (BDCA) system which has provided means for collecting, storing, and analysing large volume of security events data to monitor and protect organizational networks, computers, and data from unauthorized access, damage, or attack. Working in this area for the last 4-5 years, we have developed and evaluated three adaptation approaches: ADABTics, QuickAdapt, and SCALER.</p>
+<ul>
+<li>
+<p>ADABTics combines component-based architecture with architecture-driven adaptation to ensure optimal performance.</p>
+</li>
+<li>
+<p>QuickAdapt exploits the component based BDCA architecture to add or drop components at runtime to allow quick adaptation to the changes in the security events data. Instead of focusing on architecture.</p>
+</li>
+<li>
+<p>SCALER focusses on parameters to tune them as per the operating environment in order to ensure that the BDCA system scales optimally.</p>
+</li>
+</ul>
+<h3 id="publications">Publications</h3>
+<p>ICSA 2019, ICECCS 2019, and JNCA 2021</p>
+<h3 id="project-members">Project Members</h3>
+<ul>
+<li>Faheem Ullah</li>
+</ul>
+</div>
+                            <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">CREST</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">2021</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Platform</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalbig-data-cyber-security-analytics" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -499,7 +646,7 @@
                         <div class="modal-body">
                             <h2>Big Data Cyber Security Analytics</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/jit_svp.jpg" class="img-responsive img-centered" alt="big data">
+                            <img src="img/portfolio/cyber-security.jpg" class="img-responsive img-centered" alt="big data">
                             <p>Developed and evaluated three adaptation approaches includes ADABTics, QuickAdapt, and SCALER.</p>
                             <div class="project-content"><h3 id="overview">Overview</h3>
 <p>Big data technologies have gained tremendous popularity over the last few years, with applications in several domains such as healthcare, business analytics and smart environments. In the cyber security domain, the traditional cyber security solutions such as Intrusion Detection System (IDS) are unable to cope up with the high Volume, Velocity, and Variety, known as the 3Vs of security event data. By incorporating big data technologies with cyber security gave rise to Big Data Cyber Security Analytics (BDCA) system which has provided means for collecting, storing, and analysing large volume of security events data to monitor and protect organizational networks, computers, and data from unauthorized access, damage, or attack. Working in this area for the last 4-5 years, we have developed and evaluated three adaptation approaches: ADABTics, QuickAdapt, and SCALER.</p>

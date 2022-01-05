@@ -15,7 +15,19 @@ body {
 }
 
 .text-primary {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.secondary }};
+}
+
+.box-shadow {
+    padding: 4px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15), 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.fa-circle{text-shadow: 0px 2px 4px rgba(2, 28, 36, 0.3)}
+
+p.enlarge-first::first-letter {
+    font-size: 200%;
+    color: #{{ site.data.template.color.secondary }};
 }
 
 p {
@@ -36,14 +48,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.secondary }};
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 h1,
@@ -61,8 +73,21 @@ h6 {
     margin: 0 auto;
 }
 
+.bg-light {
+    background-color: #f4f7fe;
+}
+
+.bg-lightest {
+    background-color: #fdfdff;
+}
+
+
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #e4e6eb;
+}
+
+.bg-neutral-gray {
+    background-color: #edeff4;
 }
 
 .bg-darkest-gray {
@@ -364,8 +389,8 @@ section h3.section-subheading {
 }
 
 #services .content p {
-    font-size: 16px;
-    font-family: {{ site.data.template.font.secondary}};
+    font-size: 14px;
+    font-family: {{ site.data.template.font.primary }};
 }
 
 #portfolio .portfolio-item {
@@ -816,7 +841,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: #{{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
 }
@@ -885,4 +910,16 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+section#publication li p {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.color-highlight {
+    color: #{{ site.data.template.color.text-highlight }};
 }

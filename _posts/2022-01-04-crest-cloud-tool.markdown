@@ -4,8 +4,8 @@ subtitle: Platform
 layout: default
 modal-id: crest-cloud-tool
 date: 13/12/2021
-img: jit_svp.jpg
-thumbnail: jit_svp-thumbnail.png
+img: cloud-computing.jpeg
+thumbnail: cloud-computing-thumbnail.jpeg
 alt: platform
 project-date: 2021
 client: CREST

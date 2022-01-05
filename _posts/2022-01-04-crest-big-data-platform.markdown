@@ -1,21 +1,24 @@
 ---
-title: Big Data Cyber Security Analytics
-subtitle: Research
+title: CREST Big Data Platform
+subtitle: Platform
 layout: default
-modal-id: big-data-cyber-security-analytics
+modal-id: crest-big-data-platform
 date: 13/12/2021
-img: cyber-security.jpg
-thumbnail: cyber-security-thumbnail.jpg
-alt: big data
-project-date: 2019
+img: data-analytics.jpeg
+thumbnail: data-analytics.jpeg
+alt: platform
+project-date: 2021
 client: CREST
-category: Analytics
-description: "Developed and evaluated three adaptation approaches includes ADABTics, QuickAdapt, and SCALER."
-slug: big-data-cyber-security-analytics
+category: Platform
+description: "Develop a platform which can fully automate the processes of provisioning multi-clouds infrastructure and deploying cluster-based applications."
+slug: crest-big-data-platform
 categories:
     - research
+    - platform
 keywords:
     - Big Data
+    - infrastructure
+    - platform
 ---
 
 ### Overview
