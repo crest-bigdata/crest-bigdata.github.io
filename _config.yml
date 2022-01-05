@@ -26,12 +26,50 @@ people:
     - title: twitter
       url: https://twitter.com/faheem_uh
 
-- name: Dr. Faheem Ullah
-  pic: faheem
+- name: Dr. Victor Prokhorenko
+  pic: victor
   position: Researcher
   social:
     - title: twitter
-      url: https://twitter.com/faheem_uh
+      url: https://twitter.com
+
+- name: Dr. Yaser Mansouri
+  pic: yaser
+  position: Researcher
+  social:
+    - title: twitter
+      url: https://twitter.com
+
+- name: Hussain Ahmad
+  pic: hussain
+  position: PhD Student
+  social:
+    - title: twitter
+      url: https://twitter.com/HussainAhmad_5
+    - title: linkedin
+      url: https://www.linkedin.com/in/hussainahmad5
+
+- name: Shagun Dhingra
+  pic: shagun
+  position: Research Assistant
+  social:
+    - title: twitter
+      url: https://twitter.com
+
+- name: Anjitha Sreekumar
+  pic: anjitha
+  position: Research Assistant
+  social:
+    - title: twitter
+      url: https://twitter.com
+
+- name: Trung Ky Moc
+  pic: keith
+  position: Research Assistant
+  social:
+    - title: twitter
+      url: https://twitter.com
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
