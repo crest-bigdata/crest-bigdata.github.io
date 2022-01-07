@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CREST ADTS</title>
+    <description>Applied Data Science Research Cluster</description>
+    <link>http://adts.crest-centre.net/</link>
+    <atom:link href="http://adts.crest-centre.net/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 07 Jan 2022 05:38:08 +0000</pubDate>
+    <lastBuildDate>Fri, 07 Jan 2022 05:38:08 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>CREST Cloud Tools</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Big data technologies have gained tremendous popularity over the last few years, with applications in several domains such as healthcare, business analytics and smart environments. In the cyber security domain, the traditional cyber security solutions such as Intrusion Detection System (IDS) are unable to cope up with the high Volume, Velocity, and Variety, known as the 3Vs of security event data. By incorporating big data technologies with cyber security gave rise to Big Data Cyber Security Analytics (BDCA) system which has provided means for collecting, storing, and analysing large volume of security events data to monitor and protect organizational networks, computers, and data from unauthorized access, damage, or attack. Working in this area for the last 4-5 years, we have developed and evaluated three adaptation approaches: ADABTics, QuickAdapt, and SCALER.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ADABTics combines component-based architecture with architecture-driven adaptation to ensure optimal performance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;QuickAdapt exploits the component based BDCA architecture to add or drop components at runtime to allow quick adaptation to the changes in the security events data. Instead of focusing on architecture.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SCALER focusses on parameters to tune them as per the operating environment in order to ensure that the BDCA system scales optimally.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;publications&quot;&gt;Publications&lt;/h3&gt;
+&lt;p&gt;ICSA 2019, ICECCS 2019, and JNCA 2021&lt;/p&gt;
+&lt;h3 id=&quot;project-members&quot;&gt;Project Members&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Faheem Ullah&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+        <link>http://adts.crest-centre.net/research/platform/2021/12/13/crest-cloud-tool/</link>
+        <guid isPermaLink="true">http://adts.crest-centre.net/research/platform/2021/12/13/crest-cloud-tool/</guid>
+        
+        
+        <category>research</category>
+        
+        <category>platform</category>
+        
+        <category>Platform</category>
+        
+      </item>
+    
+      <item>
+        <title>CREST Big Data Platform</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/img/posts/crest-big-data-platform.png&quot; width=&quot;800&quot;&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;
+With the rapid increase in digital technology, the scale of data available to human society is proliferating and we have moved from collecting small samples of clean data to collecting large volume of structured and unstructured streaming data. This gave rise to Big Data, which refers to large or complex datasets which are beyond the limits of traditional databases to capture, manage or process with low latency. However, with the availability of powerful processing hardware, huge inexpensive memories, and cloud computing has enabled big data analytics to examine large amounts of data to find insights, derive conclusions, and to support data-driven decision making. By taking advantage of these technologies, we have developed the CREST big data platform which allows users to analyse data effortlessly without having the hassle of assembling or configuring of sophisticated hardware or software.
+&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;
+Our platform provides a comprehensive, flexible, and scalable ecosystem of frameworks and functionalities that allows capturing, processing, analysis, and visualization of large volumes of data. By providing data analytics as service, it allows analysts, researchers, and business users to make better and faster decisions using data that was previously inaccessible or unusable. By utilizing advanced analytics techniques such as machine learning, deep learning, predictive analytics, classification and pattern mining, the users can gain valuable insights from previously unusable data sources independently or together with other previously existing data.
+&lt;/p&gt;
+&lt;h3 id=&quot;project-members&quot;&gt;Project Members&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Faheem Ullah&lt;/li&gt;
+&lt;li&gt;Anjitha Sreekumar&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+        <link>http://adts.crest-centre.net/research/platform/2021/12/13/crest-big-data-platform/</link>
+        <guid isPermaLink="true">http://adts.crest-centre.net/research/platform/2021/12/13/crest-big-data-platform/</guid>
+        
+        
+        <category>research</category>
+        
+        <category>platform</category>
+        
+        <category>Platform</category>
+        
+      </item>
+    
+      <item>
+        <title>Big Data Cyber Security Analytics</title>
+        <description>&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Big data technologies have gained tremendous popularity over the last few years, with applications in several domains such as healthcare, business analytics and smart environments. In the cyber security domain, the traditional cyber security solutions such as Intrusion Detection System (IDS) are unable to cope up with the high Volume, Velocity, and Variety, known as the 3Vs of security event data. By incorporating big data technologies with cyber security gave rise to Big Data Cyber Security Analytics (BDCA) system which has provided means for collecting, storing, and analysing large volume of security events data to monitor and protect organizational networks, computers, and data from unauthorized access, damage, or attack. Working in this area for the last 4-5 years, we have developed and evaluated three adaptation approaches: ADABTics, QuickAdapt, and SCALER.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ADABTics combines component-based architecture with architecture-driven adaptation to ensure optimal performance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;QuickAdapt exploits the component based BDCA architecture to add or drop components at runtime to allow quick adaptation to the changes in the security events data. Instead of focusing on architecture.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SCALER focusses on parameters to tune them as per the operating environment in order to ensure that the BDCA system scales optimally.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;publications&quot;&gt;Publications&lt;/h3&gt;
+&lt;p&gt;ICSA 2019, ICECCS 2019, and JNCA 2021&lt;/p&gt;
+&lt;h3 id=&quot;project-members&quot;&gt;Project Members&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Faheem Ullah&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+        <link>http://adts.crest-centre.net/research/analytics/2021/12/13/big-data-cyber-security-analytics/</link>
+        <guid isPermaLink="true">http://adts.crest-centre.net/research/analytics/2021/12/13/big-data-cyber-security-analytics/</guid>
+        
+        
+        <category>research</category>
+        
+        <category>Analytics</category>
+        
+      </item>
+    
+  </channel>
+</rss>
