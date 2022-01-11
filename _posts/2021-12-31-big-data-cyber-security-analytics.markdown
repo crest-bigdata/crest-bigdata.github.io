@@ -28,6 +28,7 @@ Big data technologies have gained tremendous popularity over the last few years,
 
 - SCALER focusses on parameters to tune them as per the operating environment in order to ensure that the BDCA system scales optimally.
 
+---
 ### Publications
 ICSA 2019, ICECCS 2019, and JNCA 2021
 

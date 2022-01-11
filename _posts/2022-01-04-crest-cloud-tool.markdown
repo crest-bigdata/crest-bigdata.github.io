@@ -23,17 +23,26 @@ keywords:
 
 ### Overview
 
-Big data technologies have gained tremendous popularity over the last few years, with applications in several domains such as healthcare, business analytics and smart environments. In the cyber security domain, the traditional cyber security solutions such as Intrusion Detection System (IDS) are unable to cope up with the high Volume, Velocity, and Variety, known as the 3Vs of security event data. By incorporating big data technologies with cyber security gave rise to Big Data Cyber Security Analytics (BDCA) system which has provided means for collecting, storing, and analysing large volume of security events data to monitor and protect organizational networks, computers, and data from unauthorized access, damage, or attack. Working in this area for the last 4-5 years, we have developed and evaluated three adaptation approaches: ADABTics, QuickAdapt, and SCALER.
+<p align="center">
+    <img src="/img/posts/crest-cloud-tool.png" width="800">
+</p>
 
-- ADABTics combines component-based architecture with architecture-driven adaptation to ensure optimal performance.
+<p style="text-align: justify;">
+The process of deploying, configuring and evaluating a cloud infrastructure is a high technical task required a user with a good understanding of networking and cloud computing. In addition, the software installation and configuration processes in cluster-based application like Hadoop, Spark, Cassandra, etc. always requires a huge amount of efforts.
+</p>
+<p style="text-align: justify;">
+CREST Cloud Tool provides a less-technical, user-friendly and intuitive web-based application for users with none-or-less cloud computing knowledge:
+</p>
 
-- QuickAdapt exploits the component based BDCA architecture to add or drop components at runtime to allow quick adaptation to the changes in the security events data. Instead of focusing on architecture.
+1. <p style="text-align: justify;">To automate the process of deploying, configuring cloud infrastructures. </p>
+2. <p style="text-align: justify;">To automate the process of installing, configuring, evaluating cluster-based applications on cloud infrastructures.</p>
+3. <p style="text-align: justify;">To be used for experimentation related to cloud and big data.</p>
+4. <p style="text-align: justify;">To collaborate on sharable infrastructure and applications.</p>
+5. <p style="text-align: justify;">To manage and monitor the cloud infrastructures of an organization.</p>
 
-- SCALER focusses on parameters to tune them as per the operating environment in order to ensure that the BDCA system scales optimally.
-
-### Publications
-ICSA 2019, ICECCS 2019, and JNCA 2021
-
-
+---
 ### Project Members
 - Faheem Ullah
+- Yaser Mansouri
+- Victor Prokhorenko
+- Trung Ky Moc

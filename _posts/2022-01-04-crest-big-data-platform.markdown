@@ -35,6 +35,7 @@ With the rapid increase in digital technology, the scale of data available to hu
 Our platform provides a comprehensive, flexible, and scalable ecosystem of frameworks and functionalities that allows capturing, processing, analysis, and visualization of large volumes of data. By providing data analytics as service, it allows analysts, researchers, and business users to make better and faster decisions using data that was previously inaccessible or unusable. By utilizing advanced analytics techniques such as machine learning, deep learning, predictive analytics, classification and pattern mining, the users can gain valuable insights from previously unusable data sources independently or together with other previously existing data.
 </p>
 
+---
 ### Project Members
 
 - Faheem Ullah

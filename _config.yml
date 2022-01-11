@@ -90,4 +90,3 @@ commonmark:
   extensions: ["strikethrough", "autolink", "table"]
 
 permalink: pretty
-theme: jekyll-theme-minimal
