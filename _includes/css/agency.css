@@ -764,7 +764,7 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 8px 0;
     text-align: center;
 }
 
@@ -784,6 +784,7 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
+    align-items: right;
     margin-bottom: 0;
 }
 
@@ -922,4 +923,30 @@ section#publication li p {
 
 .color-highlight {
     color: #{{ site.data.template.color.text-highlight }};
+}
+
+.flex-float-right {
+    align-items: flex-end;
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b7d0e2;
+}
+
+.top-border {
+    /* border: 1px solid #6d6d6d; */
+    padding-top: 16px;
+    -webkit-box-shadow: 0px -1px 5px rgba(114, 114, 114, 0.5);
+    -moz-box-shadow: 0px -1px 5px rgba(114, 114, 114, 0.5);
+    box-shadow: 0px -1px 5px rgba(114, 114, 114, 0.5);
 }

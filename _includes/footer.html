@@ -1,25 +1,32 @@
-  <footer class="bg-lightest">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <!-- <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul> -->
-                </div>
-            </div>
-        </div>
-    </footer>
+<footer class="bg-lightest top-border">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span>
+          <a href="https://crest-centre.net">
+            <img
+              src="img/logos/crest.png"
+              class="img-responsive img-centered"
+              alt="CREST"
+              width="40%"
+            />
+          </a>
+        </span>
+        <span class="copyright"
+          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
+        >
+      </div>
+      <div class="col-md-8 flex-float-right">
+        <ul class="list-inline social-buttons">
+          {% for network in site.social %}
+          <li>
+            <a href="{{ network.url }}"
+              ><i class="fa fa-{{ network.title }}"></i
+            ></a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

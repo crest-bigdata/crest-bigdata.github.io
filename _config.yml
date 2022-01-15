@@ -30,15 +30,15 @@ people:
   pic: victor
   position: Researcher
   social:
-    - title: twitter
-      url: https://twitter.com
+    - title: link
+      url: https://ieeexplore.ieee.org/author/37085816139
 
 - name: Dr. Yaser Mansouri
   pic: yaser
   position: Researcher
   social:
-    - title: twitter
-      url: https://twitter.com
+    - title: link
+      url: https://scholar.google.com/citations?user=VPjDr3AAAAAJ
 
 - name: Hussain Ahmad
   pic: hussain
@@ -54,21 +54,21 @@ people:
   position: Research Assistant
   social:
     - title: twitter
-      url: https://twitter.com
+      url: https://twitter.com/Shagun_05
 
 - name: Anjitha Sreekumar
   pic: anjitha
   position: Research Assistant
   social:
     - title: twitter
-      url: https://twitter.com
+      url: https://twitter.com/SkAnjitha
 
 - name: Trung Ky Moc
   pic: keith
   position: Research Assistant
   social:
     - title: twitter
-      url: https://twitter.com
+      url: https://twitter.com/KeithM76831504
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
